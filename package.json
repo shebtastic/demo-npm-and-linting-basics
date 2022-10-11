@@ -1,0 +1,22 @@
+{
+  "name": "demo-npm-and-linting-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write .",
+    "start": "node index.js",
+    "htmlhint": "htmlhint \"**/*.html\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "prettier": "^2.7.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
